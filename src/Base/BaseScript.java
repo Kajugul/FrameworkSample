@@ -20,6 +20,8 @@ public class BaseScript
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(URL);
+
+        
     }
 
     @AfterTest
